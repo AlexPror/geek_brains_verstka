@@ -25,19 +25,51 @@
         width: 100%;
         height: 100%;
       }
+      a {
+        text-decoration: none;
+      }
+
+      .menu__link {
+        color: cornflowerblue;
+        font-size: 16px;
+        line-height: 20px;
+      }
+
+      .title {
+        color: #222222;
+        font-size: 28px;
+        line-height: 36px;
+        font-weight: bold;
+      }
+
+      .description {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 30px;
+        color: #7d7987;
+      }
+
+      .subtitle {
+        color: coral;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 80px;
+      }
     </style>
   </head>
   <body>
     <div class="main">
       <div class="menu">
         <ul>
-          <a href="/dz1/index.html">Главная</a>
-          <a href="#">Каталог</a>
-          <a href="#">Контакты</a>
+          <a class="menu__link" href="/dz1/index.html">Главная</a>
+          <a class="menu__link" href="#">Каталог</a>
+          <a class="menu__link" href="#">Контакты</a>
         </ul>
       </div>
-      <h1>Каталог</h1>
-      <p>
+      <h1 class="title">Каталог</h1>
+      <p class="description">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem
         laudantium ab ad officiis, atque sed quaerat odio pariatur. Maxime ipsum
         asperiores nam nobis repudiandae nostrum facilis architecto dolores
@@ -63,7 +95,7 @@
             alt=""
           />
           <div class="product-title">Product name 1</div>
-          <p class="product-descr">
+          <p class="description">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Consequatur, optio. Vero perferendis distinctio quisquam corporis
             commodi, voluptatum eius officiis itaque odio quos consequatur
@@ -73,7 +105,7 @@
         <div class="product-card">
           <img src="/dz1/img/close-up-man-writing-code-laptop.jpg" alt="" />
           <div class="product-title">Product name 2</div>
-          <p class="product-descr">
+          <p class="description">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Consequatur, optio. Vero perferendis distinctio quisquam corporis
             commodi, voluptatum eius officiis itaque odio quos consequatur
@@ -86,7 +118,7 @@
             alt=""
           />
           <div class="product-title">Product name 3</div>
-          <p class="product-descr">
+          <p class="description">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Consequatur, optio. Vero perferendis distinctio quisquam corporis
             commodi, voluptatum eius officiis itaque odio quos consequatur
