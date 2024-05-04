@@ -12,8 +12,8 @@ body {
 }
 
 .center {
-  margin-left: calc(50% - 800px);
-  margin-right: calc(50% - 800px);
+  padding-left: calc(50% - 570px);
+  padding-right: calc(50% - 570px);
 }
 
 .container {
@@ -98,37 +98,33 @@ span {
   margin-top: 65px;
   background-color: #fff;
   align-items: center;
-  display: flex;
-  justify-content: center;
 }
 
 .catalog__wear {
-  display: flex;
-  /* align-items: center; */
-  justify-content: space-between;
-}
-
-.catalog__accesories {
-  margin-top: 30px;
-}
-
-.card__accesoires {
-  position: absolute;
-  bottom: -50%;
-  transition: translateX(-100%);
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 360px);
+  justify-content: center;
 }
 
 .card {
-  height: 260px;
-  width: 360px;
   position: relative;
 }
 
 .card-text {
   position: absolute;
-  top: 42%;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-text-big {
+  left: 100%;
 }
 
 .card__subtitle {
